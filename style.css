@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./img/back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* border: 2px solid white; */
+  display: flex;
+  overflow: hidden;
+}
+
+.container {
+  /* border: 2px solid green; */
+  width: 100%;
+  height: 100%;
+}
+
+.container img {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.links {
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 28vh;
+  right: 3vw;
+  width: 8vw;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profile {
+  width: 6vw;
+  height: 12vh;
+  /* border-radius: 50%; */
+  border-radius: 100%;
+  box-shadow: 7px 2px 8px rgba(0, 0, 0, 0.493);
+  transition: 0.2s ease;
+  cursor: pointer;
+}
+
+.profile:hover {
+  transform: scale(1.1);
+}
+
+#zoro {
+  display: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1920px;
+  height: 1080px;
+  transform: scaleX(-1);
+}
+
+#tonyChopper {
+  display: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1920px;
+  height: 1080px;
+  transform: scaleX(-1);
+}
+
+#luffy {
+  display: none;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1920px;
+  height: 1080px;
+  transform: scaleX(-1);
+}
